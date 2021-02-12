@@ -1,1 +1,188 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+    font-family: 'Shadows Into Light';
+}
+
+header {
+    background-color: #3C445A;
+    margin: 0% 0% 0% 0%;
+    padding: 2% 2% 5% 2%;
+}
+
+.container-block {
+    display: inline;
+
+    height: 5%;
+    width: 5%;
+    padding: 2%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 220%;
+    font-weight: bold;
+    margin: 2% 2% 2% 4%;
+}
+
+.home{
+    background-color: #239997;
+
+}
+
+.about{
+    background-color: #D4AD6A;
+
+}
+
+.contact{
+    background-color: #B76B66;
+
+}
+
+.projects{
+    background-color: #70603C;
+ 
+}
+
+#top{
+    background-color: #F6E5CB;
+}
+
+h2{
+    text-transform: uppercase;
+
+}
+
+.name-intro{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main-img {
+    height: 60%;
+    width: 40%;
+    border-radius: 1%;
+    margin: 1% 5% 5% 8%;
+}
+
+.img-size{
+    height: 10%;
+    width: 10%;
+    border-radius: 1%;
+    margin: 0% 0% 0% 0%;
+}
+
+/* footer{
+    background-color: #8A9628;
+}
+
+h3{
+    text-align: center;
+}
+
+#contact-me{
+    text-align: center;
+} */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+    background: #e5e0d2;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    /* background: gold; */
+    padding: 5px;
+}
+
+.top-img {
+    background: red;
+    width: 15em;
+    height: 12em;
+}
+
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+    flex: 1;
+    padding: 1em;
+}
+
+.my-name{
+    height: 10px;
+}
+
+.my-projects{
+    background-color: #70603C;
+}
+
+.top-text-paragraph {
+    height: 10px;
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.picture-container {
+    padding: 1em;
+}
+
+.picture {
+    background: aqua;
+    height: 5em;
+    width: 6em;
+}
+
+.picture-title {
+    height: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8A9628;
+    padding: 5em;
+}
+
+.footer-button {
+    width: 150px;
+    height: 75px;
+    background-color: #C0BA89;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fb-icon {
+  height: 2em;
+}
