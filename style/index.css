@@ -1,1 +1,401 @@
 /* Add CSS styling here */
+
+/* CSS RESET CODE BEGINS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{
+    border:1px solid grey;
+} */
+
+html{
+    font-size:62.5%; /* 1 rem = 10px */
+    font-family: "Raleway";
+}
+
+/* CSS RESET CODE ENDS HERE  */
+
+/* HEADER CSS & NAVIGATION STARTS HERE */
+
+/* body {
+    font-family: ;
+} */
+
+header {
+    background-color: #9BBABD;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+
+}
+
+#header-title {
+    padding-left: 3em;
+    padding-bottom: 2em;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #EEEEEE;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+
+#navigation {
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+
+a.top-nav {
+    padding: 1em 2em;
+    background-color: #51777C;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 1.7em;
+
+}
+
+a.top-nav:hover {
+    background-color: #EEEEEE;
+    color: #51777C;
+}
+
+
+/* END OF HEADER & NAVIGATION CSS */
+
+.container {
+    padding: 1em;
+    background: #F5E7DD;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+.top-img {
+    width: 52em;
+    height: 39em;
+}
+
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 6em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+a.my-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    width: 10%;
+    margin: 2% 0%;
+    padding: 2% 4% 2% 4%;
+    background-color: #C4D5C4;
+    color: black;
+    font-size: 2.4rem;
+    text-decoration: none;
+
+}
+
+#top-para {
+    font-size: 226%;
+    width: 65%;
+}
+
+/* ENDS top-container CSS */
+
+
+/* STARTS picture rows CSS */
+
+.row1 {
+    width: 100%;    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.pic-container {
+    padding: 1em;
+}
+
+.pic {
+    height: 22em;
+    width: 26em;
+}
+
+.pic-title {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* ENDS row pictures container CSS */
+
+
+/* STARTS FOOT CONTAINER CSS */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9BBABD;
+    color: #EEEEEE;
+    padding: 5em;
+}
+
+h3 {
+    font-size: 3.5em;
+    margin: 2% 1%;
+}
+
+.foot-button {
+    padding: 2% 6%;
+    background-color: #51777C;
+    text-align: center;
+    
+}
+
+.contact-me {
+    text-align: center;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* ENDS foot container CSS */
+
+/* STARTS MEDIA QUERIES        */
+
+/*    800 px       */
+
+@media(max-width: 800px) {
+
+/*    HEADER      */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
+#navigation {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+a.top-nav {
+    padding: 10% 31%;
+    margin-bottom: 2%;
+}
+
+/*      TOP CONTAINER            */
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-image {
+    width: 74em;
+    height: 60em;
+}
+
+h2.top-title2 {
+    padding-bottom: 0.3em;
+}
+
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 3em 0em 3em;
+}
+
+a.my-projects {
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 0.5em;
+}
+
+#top-para {
+    text-align: center;
+}
+
+/*       PICTURE ROW CONTAINERS       */
+
+.row1 {
+    justify-content: space-evenly;
+}
+
+.row2 {
+    justify-content: space-evenly;
+}
+
+/*        500 px          */
+
+@media(max-width: 500px) {
+
+/*   HEADER   */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+    
+h1 {
+    display: flex;
+    justify-content: center;
+}
+    
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+    
+#navigation {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+a.top-nav {
+    padding: 10% 31%;
+    margin-bottom: 2%;
+}
+
+/*     TOP CONTAINER         */
+    
+.top-img {
+    width: 43em;
+    height: 33em;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+a.my-projects {
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+}
+    
+#top-para {
+    text-align: center;
+}
+
+/*    PICTURE ROW CONTAINER      */
+    
+.row1 {
+    justify-content: space-evenly;
+
+}
+    
+.row2 {
+    justify-content: space-evenly;
+}
+
+.pic {
+    height: 14em;
+    width: 16em;
+}
+
+.pic-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+}
