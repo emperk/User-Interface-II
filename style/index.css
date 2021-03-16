@@ -45,9 +45,9 @@ table {
 	border-spacing: 0;
 }
 
-*{
+/* *{
     border:1px solid grey;
-}
+} */
 
 html{
     font-size:62.5%; /* 1 rem = 10px */
@@ -90,11 +90,11 @@ h1 {
 
 
 a.top-nav {
-    padding: 1% 3%;
+    padding: 1em 2em;
     background-color: #51777C;
     color: #EEEEEE;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.7em;
 
 }
 
@@ -118,8 +118,8 @@ a.top-nav:hover {
 }
 
 .top-img {
-    width: 48em;
-    height: 35em;
+    width: 52em;
+    height: 39em;
 }
 
 .top-text-container {
@@ -132,19 +132,19 @@ a.top-nav:hover {
 h2 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 252%;
+    font-size: 4em;
 }
 
 a.my-projects{
     display: flex;
     flex-direction: row;
     justify-content: center;    
-    width: 22%;
-    margin: 3% 0%;
-    padding: 3% 7% 3% 7%;
+    width: 10%;
+    margin: 2% 0%;
+    padding: 2% 4% 2% 4%;
     background-color: #C4D5C4;
     color: black;
-    font-size: 1.9rem;
+    font-size: 2.4rem;
     text-decoration: none;
 
 }
@@ -258,6 +258,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 2em;
 }
 
 a.top-nav {
@@ -273,16 +274,27 @@ a.top-nav {
     align-items: center;
 }
 
+.top-image {
+    width: 74em;
+    height: 60em;
+}
+
+h2.top-title2 {
+    padding-bottom: 0.3em;
+}
+
 .top-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3em 3em 0em 3em;
 }
 
 a.my-projects {
     width: 100%;
     text-align: center;
     padding: 10%;
+    margin-bottom: 0.5em;
 }
 
 #top-para {
